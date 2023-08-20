@@ -1,0 +1,19 @@
+{
+  "name": "SymfonyCourse",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Alex Rans",
+    "email": ""
+  },
+  "repository": "/Symfony Course",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
