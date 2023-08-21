@@ -14,6 +14,6 @@ jobs:
       - name: upload
         run: rsync -avr docs ec2-user@${{ secrets.SSH_HOST }}:/var/www/vuepresssymfonycourse/
       - name: build
-        run: ssh ec2-user@${{ secrets.SSH_HOST }} "cd /var/www/vuepresssymfonycourse/docs && yarn install && yarn dev"
+        run: ssh ec2-user@${{ secrets.SSH_HOST }} "cd /var/www/vuepresssymfonycourse/docs && yarn install && yarn build"
 #      - name: change perms idk
 #        run: ssh ec2-user@${{ secrets.SSH_HOST }} "sudo chmod +777 /var/www/public_html/htdocs/var -R"
