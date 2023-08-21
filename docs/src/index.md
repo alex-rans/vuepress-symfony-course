@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /banner.jpg
 tagline: 
 actionText: Get started →
-actionLink: /guide/
+actionLink: /data/
 features:
 - title: PHP
   details: The main part of this course deals with the development of web applications using Symfony. However, this course also contains a short introduction to PHP (in which we focus on the bare essentials of the language, needed for developing Laravel applications).

@@ -38,6 +38,10 @@ module.exports = {
         link: '/',
       },
       {
+        text: 'Data modeling',
+        link: '/data/',
+      },
+      {
         text: 'PHP',
         link: '/php/',
       },
@@ -46,15 +50,21 @@ module.exports = {
         link: '/symfony/',
       },
       {
-        text: 'Data modeling',
-        link: '/data/',
-      },
-      {
         text: 'Config',
         link: '/config/'
       },
     ],
     sidebar: {
+      '/config/': [
+        {
+          title: 'Configuration',
+          collapsable: false,
+          children: [
+            '',
+            'symfony-project'
+          ]
+        }
+      ],
       '/php/': [
         {
           title: 'PHP',
@@ -65,16 +75,8 @@ module.exports = {
               'operators',
               'control-structures',
               'arrays',
-          ]
-        }
-      ],
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
+              'functions',
+              'oop',
           ]
         }
       ],
